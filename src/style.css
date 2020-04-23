@@ -1,0 +1,35 @@
+.card div img {
+  margin: 0px 0px 0px 0px;
+  width: 300px;
+  display: inline-flex;
+}
+.card {
+  margin: 10px;
+}
+.container {
+  width: 90%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-flow: wrap;
+}
+.card div {
+  /* margin: 40px; */
+  width: 300px;
+  text-align: justify;
+  /* display: inline-flex; */
+}
+.card div ul li {
+  list-style: none;
+  display: inline-flex;
+  color: blue;
+}
+.card div ul li span {
+  color: red;
+}
+.card div ul li button {
+  background-color: orange;
+  padding: 10px;
+  margin: 30px;
+}
